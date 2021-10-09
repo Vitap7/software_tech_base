@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type= "text/css" href="ex2.css">
+	<title>My First Form</title>
+</head>
+
+<body>
+	<div class="divForm">
+	<form method="post" action="Servlet1">
+		<label>Username:</label><input type="text" name="Username" size="20" maxlength="20"><br><br>
+		<label>Password:</label><input type="password" name="Password" size="20" maxlength="20"><br>
+		<br><br>
+
+		<label>Gender:</label>
+		<input type="radio" name="gender" value="female" checked="checked"><font color="#FF1493">♀ </font>Female</input>
+		<input type="radio" name="gender" value="male" ><font color="#1E90FF">♂ </font>Male</input>
+		<br><br>
+
+		<label>Hobbies:</label>
+		<input type="checkbox" name="hobbies" value="movie">Movie</input>
+		<input type="checkbox" name="hobbies" value="music">Music</input>
+		<input type="checkbox" name="hobbies" value="sport">Sport</input>
+		<input type="checkbox" name="hobbies" value="bike">Bike</input>
+		<br><br>
+
+		<input type="submit" name="submit" value="Submit"></input>
+
+	</form>
+	</div>
+</body>
+</html>
